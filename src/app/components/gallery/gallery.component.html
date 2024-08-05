@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4" *ngFor="let image of images">
+    <div class="col-md-3" *ngFor="let image of images">
       <div class="card mb-4">
-        <img [src]="image.avatarUrl" class="card-img-top" [alt]="image.caption" width="100px" height="100px"/>
+        <img [src]="image.avatarUrl" class="card-img-top" [alt]="image.caption" width="50%" height="55%" style="border-radius:180rem ;"/>
         <div class="card-body">
           <h3 class="card-text">{{ image.name }}</h3>
         </div>

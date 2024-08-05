@@ -32,13 +32,20 @@ export class GalleryComponent implements OnInit {
   
   onChose(ripo:any){
     var newSession:any[] =[]
+    var parseOld:any[] =[]
     let old= sessionStorage.getItem('bookmarks');
     if(old!=null){
-      newSession.concat(JSON.parse(old)).concat(ripo)
+     parseOld = JSON.parse(old)
+      parseOld.forEach(item => {
+        newSession.push(item)
+      });
+      newSession.push(ripo)
       sessionStorage.setItem('bookmarks',JSON.stringify(newSession))
     }
-    else
-    sessionStorage.setItem('bookmarks', JSON.stringify(ripo));
-  }
+    else{
+      newSession.push(ripo)
+      sessionStorage.setItem('bookmarks', JSON.stringify(newSession));
+    }
+  }
  
 }
