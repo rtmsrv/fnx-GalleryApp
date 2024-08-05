@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+//general colors
+$blue_light: #02a0fc;
+$blue: #0671e0;
+$black: #17181a;
+$red: #e02b1d;
+$grey: #666e80;
+$grey_light: #98a1b3;
+$required: #ff3a29;
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif !important;
+}

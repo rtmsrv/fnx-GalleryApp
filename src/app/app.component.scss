@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+  gap: 20px;
+  .labels {
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+      text-shadow: 1px 0px 0px black;
+    }
+  }
+  .list-container {
+    display: flex;
+    flex-direction: column;
+
+    .list {
+      padding: 8px;
+      background-color: rgb(215, 230, 247);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      .title {
+        display: flex;
+        gap: 4px;
+      }
+    }
+  }
+}
