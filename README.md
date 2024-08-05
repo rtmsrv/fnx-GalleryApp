@@ -1,3 +1,8 @@
+# Assigment:
+Thank you for the opportunity for running for Scrum Master Position at Phoenix Insurance Company,
+I went throught the assigment and fullfill all 5 sections, beside the bonus section.
+I will try to accomplish this part by the end of the day (05/08/2024)
+
 # AngularForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
